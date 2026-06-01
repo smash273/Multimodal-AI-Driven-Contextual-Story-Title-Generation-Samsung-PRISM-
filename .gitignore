@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model outputs (generated at runtime)
+outputs/
+*.pt
+*.pth
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files (these live on Google Drive)
+*.npy
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Colab artifacts
+Untitled0.ipynb
+Monthly-Connect_PRISM_January.pptx
+prism.pdf
